@@ -1,4 +1,4 @@
-version: "1"
+version: "3.7"
 services:
   spark-master:
     image: bvilela/spark-master-hadoop:2.4.6
