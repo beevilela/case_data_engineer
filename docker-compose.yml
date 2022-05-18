@@ -19,7 +19,7 @@ services:
       - "11001:10001" # HiveServer - HTTP Mode
       - "11002:10002" # Hiveserver WebUI
       - "9092:9092" # Kafka
-      - "9092:9092" #Nifi
+      - "9090:9090" #Nifi
     networks: 
       spark-network:
         ipv4_address: 192.168.0.17
